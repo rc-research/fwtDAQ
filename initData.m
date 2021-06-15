@@ -2,7 +2,7 @@ function [d] = initData()
 %% Folding Wingtip WTT DAQ - Init Data
 % Created: R.C.M. Cheung
 % Contact: r.c.m.cheung@bristol.ac.uk
-% Date: 11 NOV 2019
+% Date: 15 JUN 2021
 
 % cfg
 d.cfg.locked = 0;
@@ -19,6 +19,7 @@ d.cfg.dataDirectory = '';
 d.cfg.testType = '';
 d.cfg.runCount = 1;
 d.cfg.genGust = 0;
+d.cfg.fileName = '';
 
 % gust
 d.gust.amplitudeDeg = 0.0;
